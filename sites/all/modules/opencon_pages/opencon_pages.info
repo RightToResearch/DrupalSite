@@ -1,0 +1,4 @@
+name = "OpenCon Pages"
+description = "Place OpenCon pages in code"
+core = "7.x"
+package = "OpenCon"
