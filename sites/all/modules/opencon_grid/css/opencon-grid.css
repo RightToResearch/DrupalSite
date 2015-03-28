@@ -5,17 +5,22 @@ ul.views-fluid-grid-items-width-379 li.views-fluid-grid-item {
 }
 
 ul.views-fluid-grid-items-height-379 li.views-fluid-grid-item { 
-	height: 379px;
 	background-color:white;
-	border-radius:5px;
 	margin:1px;
+	border:none;
+	padding-bottom:20px;
 }
 
-ul.views-fluid-grid-items-height-379 li.views-fluid-grid-item :first-child :first-child{
-	font-weight:bold;
+ul.views-fluid-grid-items-height-379 li.views-fluid-grid-item .views-field:first-of-type {
+	border-bottom: 1px solid #aaaaaa;
 	font-size:20px;
+	padding-bottom:4px;
 }
 
+
+ul.views-fluid-grid-items-width-379 li.views-fluid-grid-item .field-content img {
+    padding-right: 3px;
+}
 
 
 
@@ -28,11 +33,25 @@ ul.views-fluid-grid-items-width-179 li.views-fluid-grid-item {
 
 ul.views-fluid-grid-items-height-179 li.views-fluid-grid-item { 
 	background-color:white;
-	border-radius:5px;
+	border:none;
 	margin:1px;
+	padding-bottom:20px;
 }
 
-ul.views-fluid-grid-items-height-179 li.views-fluid-grid-item :first-child :first-child{
-	font-weight:bold;
-	font-size:20px;
+ul.views-fluid-grid-items-height-179 li.views-fluid-grid-item .views-field:first-of-type {
+	border-bottom: 1px solid #aaaaaa;
+	font-size:24px;
+	padding-bottom:6px;
+}
+
+
+
+
+ul.views-fluid-grid-items-width-179 li.views-fluid-grid-item .field-content img {
+    padding-right: 5px;
+}
+
+
+li.views-fluid-grid-item {
+	font-family: "Open Sans", "Arial", sans-serif;
 }
