@@ -51,7 +51,12 @@ ul.views-fluid-grid-items-width-179 li.views-fluid-grid-item .field-content img 
     padding-right: 5px;
 }
 
-
 li.views-fluid-grid-item {
 	font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.opencon-grid img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
