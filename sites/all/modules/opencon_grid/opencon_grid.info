@@ -3,4 +3,7 @@ description = Provides the grid layout used by OpenCon website
 dependencies[] = views_fluid_grid
 package = OpenCon
 core = 7.x
+
 stylesheets[all][] = css/opencon-grid.css
+
+dependencies[] = views_fluid_grid

@@ -2,3 +2,5 @@ name = "OpenCon Views"
 description = "Place OpenCon views in code"
 core = "7.x"
 package = "OpenCon"
+
+dependencies[] = views
