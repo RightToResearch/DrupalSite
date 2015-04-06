@@ -4,3 +4,28 @@ function opencon_pages_ctools_plugin_api($module, $api) {
         return array('version' => 1);
     }
 }
+
+
+
+/**
+ * Infine onepage is a 'bit special' and doesn't set titles!
+ */
+function opencon_pages_menu_alter(&$items) {
+    $items['onepage/%']['title callback'] = 'opencon_pages_title_callback';
+    $items['onepage/%']['title arguments'] = array(1);
+}
+
+function opencon_pages_title_callback($arg) {
+  switch ($arg) {
+      case 3:
+          $title = "Sponsorship Opportunities";
+          break;
+      case 4:
+          $title = "Community";
+          break;
+      case 5:
+          $title = "Resources";
+          break;
+  }
+    return $title;
+}
