@@ -34,8 +34,7 @@ jQuery(document).ready(function ($) {
 
     $('#revolution-4 li:nth-child(1) > div').wrap('<a href="/attend" />');
     $('#revolution-4 li:nth-child(2) > div').wrap('<a href="/sponsor" />');
-    $('#revolution-4 li:nth-child(3) > div').wrap('<a href="/satellite" />');
-    $('#revolution-4 li:nth-child(4) > div').wrap('<a href="/attend" />');
+    $('#revolution-4 li:nth-child(3) > div').wrap('<a href="/satellite />');
 
 });
 
