@@ -32,8 +32,9 @@ jQuery(document).ready(function ($) {
         var $spy = $(this).scrollspy('refresh')
     });
 
-    $('#revolution-4 li:nth-child(1) > div').wrap('<a href="/apply" />');
-    $('#revolution-4 li:nth-child(2) > div').wrap('<a href="/node/80" />');
+    $('#revolution-4 li:nth-child(1) > div').wrap('<a href="/attend" />');
+    $('#revolution-4 li:nth-child(2) > div').wrap('<a href="/sponsor" />');
+    $('#revolution-4 li:nth-child(3) > div').wrap('<a href="/satellite" />');
 
 });
 
